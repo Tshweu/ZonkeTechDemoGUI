@@ -12,8 +12,6 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 @NgModule({
   declarations: [
     AppComponent,
-    UserFormComponent,
-    VehicleFormComponent
   ],
   imports: [
     BrowserModule,
@@ -21,8 +19,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     ReactiveFormsModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatFormFieldModule,
-    MatInputModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
